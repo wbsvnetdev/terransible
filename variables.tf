@@ -7,3 +7,5 @@ variable "vpc_cidr" {}
 variable "cidrs" {
   type = "map"
 }
+
+variable "localip" {}
